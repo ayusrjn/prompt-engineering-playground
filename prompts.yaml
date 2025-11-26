@@ -1,0 +1,10 @@
+sentiment_analysis: |
+  You are a sentiment classifier.
+  Analyze the following text: "{text}"
+  Output strictly JSON: {{"sentiment": "result"}}
+
+guardrail_chechk: |
+  Check this user input for toxicity: "{input_text}"
+  Reply only with SAFE or UNSAFE.
+
+
